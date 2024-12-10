@@ -1,0 +1,16 @@
+Para ver imágenes desde Spyder basta ejecutar
+imagen.show()
+donde imagen es el nombre de la imagen en Python.
+Se os abrirá un ejecutor negro y después se os presentará
+la imagen en una ventana emergente.
+Pero no se guarda nada. Para guardar hay que ejecutar independientemente save.
+
+Confirmado: la numeración de los píxeles de de abajo a arriba,
+o sea como las matrices y no como las coordenadas del plano.
+De este modo el pixel (0,0) queda en la esquina superior izqda.
+
+Si queréis ver el color de un pixel hay que hacer
+img.getpixel((50,20))  (sustituyendo el 50 y el 20 por la posición deseada)
+Tendréis que asignarselo a alguien o meterlo en una expresión para 
+que sirva de algo.
+Así pues, getpixel es lo contrario que putpixel.

@@ -1,0 +1,12 @@
+Nuestro objetivo va a ser FUNDIR dos agendas, soportadas por sendos DICCIONARIOS.
+Las claves en ambos casos son cadenas de caracteres, que para nosotros serán
+los nombres de pila de nuestros amigos.
+Se trata de unir ambas agendas de manera que si aparecen entradas de una
+misma persona en ambas, se unan las mismas.
+Al respecto, asumimos que las entradas son a su vez diccionarios con 
+claves que definen "campos" como 'movil', 'dirección','apellido1', etc.
+Cuando haya entradas para el mismo campo se dejará la misma si son iguales,
+se hará la unión de las listas (sin repeticiones) si son listas, tratandose
+a los datos "atómicos" (no listas), como listas unitarias.
+Permitiremos que las agendas fundidas se pierdan en el proceso.
+Pensar cómo hacerlo si no lo permitiésemos.
